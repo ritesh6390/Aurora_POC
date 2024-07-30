@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Aurora_Pagination_POC
+/Aurora.User/bin/Debug/net8.0
+/Aurora.User/obj
