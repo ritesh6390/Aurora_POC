@@ -16,7 +16,7 @@ namespace Aurora.User.Controllers
         {
             _userService = userService;
         }
-        [HttpPost]
+        [HttpPost("GetUsers")]
         public async Task<ActionResult<UserResponseModel>> GetUsers(CommonPaginationModel model)
         {
             var users = await _userService.GetUsersAsync(model);
